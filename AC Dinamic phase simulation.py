@@ -24,6 +24,8 @@ for i, j in zip(range(phase), divl):
     data[i] = np.sin(j + x)
 
 data['final'] = data.sum(axis=1)
+#see how actual values look
+print(data)
 
 #Plot function with animation
 def plot(data):
